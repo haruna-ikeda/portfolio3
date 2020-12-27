@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:480px) { 
+.page .sp-close-hamburger{
+  display: block;
+}
+.page .sp-close-hamburger img{
+    width: 100%;
+}
+.page .hamburger-button{
+    display: block;
+}
+.page .hamburger-nav{
+    display: block;
+}
+/*-----閉じている時-----*/
+.page .sp-close-hamburger-wrap{
+  display: block;
+  width: 100%;
+  height: 90px;
+  background-image: url(../images/sp/sp-gizagiza.png);
+  background-repeat: repeat-x;
+  background-position: bottom center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.sp-close-hamburger{
+  width: 100%;
+  height: 71px;
+  padding: 10px 10px 0;
+  background-color: #fff;
+}
+.sp-close-hamburger h1{
+  width: 300px;
+  height: 50px;
+}
+.sp-close-hamburger h1 img{
+  width: 100%;
+}
+.page .hamburger-button {
+  display: flex; /* media query時にはflexでもどして */
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1002;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  outline: none;
+}
+.hamburger-button svg {
+  height: 50px; /* autoではなく同じ数字で */
+  width: 50px; /* autoではなく同じ数字で */
+}
+.hamburger-button path {
+  fill: #333333;
+}
+
+
+/*----開いているとき----*/
+.hamburger-nav {
+  position: fixed;
+  right: 0;
+  width: 80%;
+  background-color: #fff;
+  z-index: 1001;
+  display: none;
+}
+.hamburger-nav ul{
+  padding: 70px 70px 30px;/*navだときかなかった*/
+}
+.hamburger-nav li a{
+  color: #333333;
+  display: block;
+  text-decoration: none;
+  font-size: 36px;
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+#hamburger-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,.5);
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1000;
+}
+}

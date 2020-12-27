@@ -1,0 +1,195 @@
+@media screen and (max-width:480px) { 
+
+header{
+    display: none;
+}
+main h2{
+    position: static;
+    text-align: center;
+    margin: 0 0 20px;
+    padding-top: 40px;
+}
+footer{
+    height: auto;
+    background-image: none;
+    background-image: url(../images/sp/sp-footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+footer .sankou{
+    float: left;
+}
+footer .rinku{
+    float: right;
+}
+footer .link{
+    width: 80%;
+    margin: 0 auto;
+    position: static;
+    padding-top: 90px;
+}
+footer .copyright{
+    text-align: center;
+    position: static;
+    clear: both;
+}
+footer p{
+    font-size: 14px;
+}
+
+/* ---------HOME--------- */
+
+.home .catcafe-wrap h1{
+    display: none;
+}
+.home .fv img{
+    width: 100%;
+    height: auto;
+}
+.home .f-container{
+    display: inline;
+    text-align: center;
+    height: auto;
+}
+.home .f-item{
+    margin-bottom: 40px;
+}
+/* ---------------------
+        CONCEPT
+---------------------- */
+.concept .contents .guideline{
+    display: block;
+    margin: 0 auto;
+}
+.concept .contents .guideline p{
+    margin: 0 auto 20px;
+}
+.concept .contents .kikkake-wrap{
+    padding: 60px 0 20px;
+}
+.concept .contents .kikkake{
+    width: 340px;
+    margin: 0px auto;
+    padding: 10px 5px;
+}
+.concept .contents .guideline {
+    padding-bottom: 80px;
+}
+.concept .contents h3{
+    background-image: none;
+    background-image: url(../images/sp/concept-h3-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.concept .contents h3 br{
+    display: inline;
+}
+.concept .contents .manga-pc{
+    display: none;
+}
+.concept .contents .comic {
+    padding-top: 20px;
+}
+.concept .contents .comic  h3 br{
+    display: inline;
+}
+.concept .contents .comic .manga-sp {
+    display: block;
+    text-align: center;
+}
+.concept .contents .comic .wow-sp{
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    display: block;
+    left: 50%;
+    bottom: -30px;
+    margin-left: 100px;
+    opacity: 0;
+}
+.concept .contents .comic .wow-sp.on{
+    opacity: 1;
+    margin-left: 60px;
+}
+.concept .contents .comic .wow-pc{
+    display: none;
+}
+
+
+/* ---------------------
+        ACCESS
+---------------------- */
+.access .contents .google-map-pc{
+    display: none;
+}
+.access .contents .map-wrap{
+    padding: 55px 0 0px;
+}
+.access .contents .map-wrap .google-map-sp{
+    text-align: center;
+    padding: 35px 0;
+    display: block;
+    background-image: url(../images/sp/sp-access-tv.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+}
+.access .contents .google-map-sp iframe{
+    margin-bottom: 48px;/*画面に合わせるための微調整*/
+}
+.access .contents .shop-info-wrap{
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+/* ---------------------
+    ACCESSとRECRUIT共通
+---------------------- */
+.access .contents .shop-info,
+.recruit .contents .arubaito {
+    padding: 20px 0 340px;
+    width: 340px;
+    margin: 0 auto;
+}
+.access .contents ul li .address-first,
+.recruit .contents ul li .address-first{
+    float: none;
+}
+.access .contents h3,
+.recruit .contents h3{
+    width: 95%;
+    height: auto;
+}
+.access .contents h3 img,
+.recruit .contents h3 img{
+    width: 100%;
+}
+.access .contents ul li ,
+.recruit .contents ul li {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.access .contents ul li:last-child,
+.recruit .contents ul li:last-child {
+    margin-bottom: 10px;
+}
+.access .contents ul li span,
+.recruit .contents ul li span{
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* ---------------------
+        RECRUIT
+---------------------- */
+.recruit .contents .arubaito-wrap{
+    padding-top: 20px;
+}
+.recruit .contents .arubaito {
+    margin-bottom: 30px;
+}
+.recruit .contents .recruit-fv {
+    padding-top: 60px;
+}
+}
